@@ -1007,6 +1007,7 @@ public class ContactsDatabaseHelper extends SQLiteOpenHelper {
             GroupMembership.CONTENT_ITEM_TYPE,
             Note.CONTENT_ITEM_TYPE,
             ContactsContract.CommonDataKinds.EthereumAccountAddress.CONTENT_ITEM_TYPE,
+            ContactsContract.CommonDataKinds.BitcoinAccountAddress.CONTENT_ITEM_TYPE,
             Event.CONTENT_ITEM_TYPE,
             Website.CONTENT_ITEM_TYPE,
             Relation.CONTENT_ITEM_TYPE,

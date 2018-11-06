@@ -1724,6 +1724,8 @@ public class ContactsProvider2 extends AbstractContactsProvider
                 new DataRowHandlerForNote(context, dbHelper, contactAggregator));
         handlerMap.put(ContactsContract.CommonDataKinds.EthereumAccountAddress.CONTENT_ITEM_TYPE,
                 new DataRowHandlerForEthereumAccountAddress(context, dbHelper, contactAggregator));
+        handlerMap.put(ContactsContract.CommonDataKinds.BitcoinAccountAddress.CONTENT_ITEM_TYPE,
+                new DataRowHandlerForBitcoinAccountAddress(context, dbHelper, contactAggregator));
         handlerMap.put(Identity.CONTENT_ITEM_TYPE,
                 new DataRowHandlerForIdentity(context, dbHelper, contactAggregator));
     }
